@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.meuaprendizado.course.entities.Category;
+import com.meuaprendizado.course.entities.Category;
 import com.meuaprendizado.course.repositories.CategoryRepository;
 
 @Service
@@ -24,3 +25,4 @@ public class CategoryService {
 		return obj.get();
 	}
 }
+ 
